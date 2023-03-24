@@ -4,7 +4,7 @@ load_dotenv()
 path = os.environ['FILE_PATH']
 sys.path.append(path)
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Request, File, UploadFile, Depends
 from app.core.business.abstracts.DocumentConverterService import DocumentConverterService
 from fastapi.responses import FileResponse
 

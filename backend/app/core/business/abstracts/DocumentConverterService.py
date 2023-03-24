@@ -13,6 +13,10 @@ class DocumentConverterService:
     def convertExcelToPdf(self):
         pass
 
+    def convertPdfToExcel(self):
+        pass
+
     def convertCorelDrawToPdf(self):
         pass
+
 
